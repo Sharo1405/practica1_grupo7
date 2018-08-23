@@ -1,0 +1,13 @@
+double Multiplica(double var)
+	{
+		double multi;
+		multi=var*5;
+		return multi;
+	}
+
+double Divide(double var)
+	{
+		double div;
+		div=var/7;
+		return div;
+	}
