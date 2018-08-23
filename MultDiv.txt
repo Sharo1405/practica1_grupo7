@@ -5,9 +5,14 @@ double Multiplica(double var)
 		return multi;
 	}
 
-double Divide(double var)
+double Divide(double var,int a)
 	{
 		double div;
-		div=var/7;
+		if(a==0){
+			System.out.print("Eso no se puede >:v");
+			div = 0;
+		}else{
+			div=var/a;
+		}		
 		return div;
 	}
